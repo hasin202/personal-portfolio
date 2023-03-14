@@ -2,12 +2,10 @@ import { HeaderContainer, Body } from "./App.styled";
 import HeaderBody from "./headerbody";
 const App = () => {
   return (
-    <>
+    <HeaderContainer>
       <Body />
-      <HeaderContainer>
-        <HeaderBody />
-      </HeaderContainer>
-    </>
+      <HeaderBody />
+    </HeaderContainer>
   );
 };
 

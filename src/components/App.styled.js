@@ -24,27 +24,18 @@ export const HeaderContainer = styled.header`
   padding: 0 52px 0 52px;
 `;
 
-export const SubHeading = styled.h1`
-  font-size: 30px;
-  font-weight: 100;
-  margin: 0;
-  padding: 0;
-  margin-left: -0.08em;
-  padding-bottom: 11px;
-`;
-
 export const Heading = styled.h1`
-  font-size: 60px;
-  font-weight: 900;
-  color: #9f5dbe;
+  font-size: ${(props) => (props.size ? props.size : "30px")};
+  font-weight: ${(props) => (props.weight ? props.weight : 100)};
+  color: ${(props) => (props.color ? props.color : "black")};
   margin: 0;
   padding: 0;
-  margin-left: -0.06em;
-  padding-bottom: 25px;
+  margin-left: ${(props) => (props.left ? props.left : 0)};
+  padding-bottom: ${(props) => props.bottom};
 `;
 
 export const Intro = styled.p`
-  font-size: 16px;
+  font-size: ${(props) => props.size};
 `;
 
 export const SkillBox = styled.div`
@@ -64,16 +55,4 @@ export const Flex = styled.div`
   row-gap: 10px;
   column-gap: 10px;
   padding-top: 26px;
-`;
-
-export const Signature = styled.img`
-  width: 85px;
-  height: 85px;
-  position: absolute;
-  top: -13px;
-  left: 160px;
-`;
-
-export const RelativeContainer = styled.div`
-  position: relative;
 `;
