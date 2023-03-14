@@ -1,22 +1,22 @@
-import { Heading, Intro } from "./App.styled";
+import {
+  Heading,
+  SubHeading,
+  RelativeContainer,
+  Signature,
+  Intro,
+} from "./App.styled";
 import Skills from "./skills";
+import signature from "../assets/sign.svg";
 
 const HeaderBody = () => {
   return (
     <>
-      <Heading left="-0.08em" bottom="11px">
-        Hi I'm
-      </Heading>
-      <Heading
-        color="#9F5DBE"
-        size="60px"
-        weight="900"
-        left="-0.06em"
-        bottom="25px"
-      >
-        Hasin.
-      </Heading>
-      <Intro size="16px">
+      <SubHeading>Hi I'm</SubHeading>
+      <RelativeContainer>
+        <Heading>Hasin.</Heading>
+        <Signature src={signature} />
+      </RelativeContainer>
+      <Intro>
         A soon-to-be computer and internet engineering graduate keen on web
         development. These are some technologies I’m familiar with:
       </Intro>
