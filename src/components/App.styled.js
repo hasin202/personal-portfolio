@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
+
 export const Body = createGlobalStyle`
   body {
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -13,32 +14,40 @@ export const Body = createGlobalStyle`
     margin-block-end: 0px;
   }
 `;
+
+export const FlexContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding: 0 52px 0 52px;
+`;
+
+export const MenuContainer = styled.div`
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 72px;
+`;
+
 export const HeaderContainer = styled.header`
-  min-height: 100vh;
-  // background-color: #ddc1c1;
+  min-height: 75vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 52px 0 52px;
 `;
 
 export const SubHeading = styled.h1`
   font-size: 30px;
   font-weight: 100;
-  margin: 0;
-  padding: 0;
   margin-left: -0.08em;
-  padding-bottom: 11px;
+  margin-bottom: 11px;
 `;
 
 export const Heading = styled.h1`
   font-size: 60px;
   font-weight: 900;
   color: #9f5dbe;
-  margin: 0;
-  padding: 0;
   margin-left: -0.06em;
-  padding-bottom: 25px;
+  margin-bottom: 25px;
 `;
 
 export const Intro = styled.p`
@@ -54,7 +63,7 @@ export const SkillBox = styled.div`
   width: min-content;
   border-radius: 5px;
 `;
-export const Flex = styled.div`
+export const SkillsFlexContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;

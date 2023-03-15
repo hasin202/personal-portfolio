@@ -1,16 +1,16 @@
-import { SkillBox, Flex } from "./App.styled";
+import { SkillBox, SkillsFlexContainer } from "./App.styled";
 
 const Skills = () => {
   return (
     <>
-      <Flex>
+      <SkillsFlexContainer>
         <SkillBox>React</SkillBox>
         <SkillBox>Express</SkillBox>
         <SkillBox>NodeJS</SkillBox>
         <SkillBox>Supabase</SkillBox>
         <SkillBox>Figma</SkillBox>
         <SkillBox>TailwindCSS</SkillBox>
-      </Flex>
+      </SkillsFlexContainer>
     </>
   );
 };
