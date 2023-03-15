@@ -1,10 +1,6 @@
-import {
-  HamburgerButton,
-  MenuContainer,
-  NavBar,
-  RelativeContainer,
-} from "./App.styled";
+import { HamburgerButton, MenuContainer, NavBar } from "./App.styled";
 import { useState } from "react";
+import CV from "../assets/hasinCV.pdf";
 
 const Menu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -24,10 +20,12 @@ const Menu = () => {
         </HamburgerButton>
         {menuOpen ? (
           <NavBar>
-            <div>Resume</div>
-            <div>LinkedIn</div>
-            <div>GitHub</div>
-            <div>Contact</div>
+            <a href={CV} target="blank" target="_blank">
+              Resume
+            </a>
+            <a>LinkedIn</a>
+            <a>GitHub</a>
+            <a>Contact</a>
           </NavBar>
         ) : (
           <></>

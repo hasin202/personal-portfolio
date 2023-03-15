@@ -126,10 +126,11 @@ export const NavBar = styled.div`
   flex-direction: column;
   position: absolute;
   gap: 8px;
+  margin-top: 45px;
+  z-index: 2;
+
   div {
     font-size: 14px;
     font-weight: 500;
   }
-  margin-top: 45px;
-  z-index: 2;
 `;
