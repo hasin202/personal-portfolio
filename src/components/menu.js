@@ -20,11 +20,11 @@ const Menu = () => {
         </HamburgerButton>
         {menuOpen ? (
           <NavBar>
-            <a href={CV} target="blank" target="_blank">
+            <a href={CV} target="_blank">
               Resume
             </a>
-            <a>LinkedIn</a>
-            <a>GitHub</a>
+            <a href="https://www.linkedin.com/in/hasin-mahmood/">LinkedIn</a>
+            <a href="https://github.com/hasin202">GitHub</a>
             <a>Contact</a>
           </NavBar>
         ) : (
