@@ -1,4 +1,9 @@
-import { HamburgerButton, MenuContainer } from "./App.styled";
+import {
+  HamburgerButton,
+  MenuContainer,
+  NavBar,
+  RelativeContainer,
+} from "./App.styled";
 import { useState } from "react";
 
 const Menu = () => {
@@ -17,6 +22,16 @@ const Menu = () => {
             <div className="bar3"></div>
           </div>
         </HamburgerButton>
+        {menuOpen ? (
+          <NavBar>
+            <div>Resume</div>
+            <div>LinkedIn</div>
+            <div>GitHub</div>
+            <div>Contact</div>
+          </NavBar>
+        ) : (
+          <></>
+        )}
       </MenuContainer>
     </>
   );

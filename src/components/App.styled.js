@@ -5,6 +5,7 @@ export const Body = createGlobalStyle`
     font-family: 'Plus Jakarta Sans', sans-serif;
     padding:0;
     margin:0 !important;
+
   }
   h1 {
     line-height: 0.8em
@@ -12,6 +13,7 @@ export const Body = createGlobalStyle`
   *{
     margin-block-start: 0px;
     margin-block-end: 0px;
+    box-sizing: border-box;
   }
 `;
 
@@ -22,14 +24,16 @@ export const FlexContainer = styled.div`
 `;
 
 export const MenuContainer = styled.div`
+  position: relative;
   display: flex;
+  flex-direction: column;
   width: 100%;
-  justify-content: flex-end;
-  margin-top: 72px;
+  align-items: flex-end;
+  margin-top: 50px;
 `;
 
 export const HeaderContainer = styled.header`
-  min-height: 75vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -109,4 +113,23 @@ export const HamburgerButton = styled.button`
   .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
   }
+`;
+
+export const NavBar = styled.div`
+  width: 100%;
+  border: 0.5px solid #cccccc;
+  background-color: white;
+  position: relative;
+  border-radius: 8px;
+  padding: 23px 15px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 8px;
+  div {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  margin-top: 45px;
+  z-index: 2;
 `;
