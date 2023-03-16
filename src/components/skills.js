@@ -1,4 +1,4 @@
-import { SkillBox, SkillsFlexContainer } from "./App.styled";
+import { SkillBox, SkillsFlexContainer } from "./Skills.styled";
 
 const Skills = () => {
   return (
