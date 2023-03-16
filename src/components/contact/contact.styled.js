@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../device";
 
 export const ContactFlexContainer = styled.div`
   display: flex;
@@ -18,4 +19,9 @@ export const ContactLink = styled.a`
   font-size: 24px;
   font-weight: 600;
   color: #9f5dbe;
+
+  @media ${device.tablet} {
+    font-size: 30px;
+    margin-top: 40px;
+  }
 `;

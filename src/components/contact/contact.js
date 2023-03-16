@@ -5,7 +5,7 @@ import { ContactFlexContainer, ContactLink } from "./contact.styled";
 const Contact = () => {
   return (
     <div id="contact">
-      <SectionHeading>Get in touch</SectionHeading>
+      <SectionHeading padding="80px">Get in touch</SectionHeading>
       <ContactFlexContainer>
         <BasicText align="center">
           If you’ve got any interesting opportunities or just want to say hi my

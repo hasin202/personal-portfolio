@@ -4,10 +4,10 @@ import { device } from "./device";
 export const FlexContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 50px 52px 50px 52px;
+  padding: 50px 52px 100px 52px;
 
   @media ${device.tablet} {
-    padding: 50px 150px 50px 150px;
+    padding: 50px 150px 100px 150px;
   }
 `;
 
