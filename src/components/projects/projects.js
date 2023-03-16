@@ -1,4 +1,4 @@
-import { ProjectsHeading } from "./Projects.styled";
+import { SectionHeading } from "../App.styled";
 import ProjectCard from "./projectcard";
 import breathe from "../../assets/breahte.svg";
 import portfolio from "../../assets/portfolio.svg";
@@ -26,7 +26,7 @@ const Projects = () => {
   ];
   return (
     <>
-      <ProjectsHeading>My Projects</ProjectsHeading>
+      <SectionHeading>My Projects</SectionHeading>
       {projects.map((project, index) => {
         return <ProjectCard {...project} key={index} />;
       })}

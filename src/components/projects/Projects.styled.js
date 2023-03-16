@@ -1,13 +1,5 @@
 import styled from "styled-components";
 
-export const ProjectsHeading = styled.div`
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  font-size: 40px;
-  font-weight: 700;
-`;
-
 export const CardImg = styled.img`
   margin-top: 30px;
   width: 100%;

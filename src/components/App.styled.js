@@ -22,3 +22,11 @@ export const Body = createGlobalStyle`
     box-sizing: border-box;
   }
 `;
+
+export const SectionHeading = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 700;
+`;
