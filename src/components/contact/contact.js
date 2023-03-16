@@ -4,7 +4,7 @@ import { ContactFlexContainer, ContactLink } from "./contact.styled";
 
 const Contact = () => {
   return (
-    <>
+    <div id="contact">
       <SectionHeading>Get in touch</SectionHeading>
       <ContactFlexContainer>
         <BasicText align="center">
@@ -15,7 +15,7 @@ const Contact = () => {
           Say Hi.
         </ContactLink>
       </ContactFlexContainer>
-    </>
+    </div>
   );
 };
 

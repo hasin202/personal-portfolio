@@ -8,6 +8,16 @@ const Menu = () => {
     setMenuOpen((prev) => !prev);
     console.log(menuOpen);
   };
+
+  const scroll = () => {
+    let e = document.getElementById("contact");
+    e.scrollIntoView({
+      block: "start",
+      behavior: "smooth",
+      inline: "start",
+    });
+  };
+
   return (
     <>
       <MenuContainer>
@@ -25,7 +35,7 @@ const Menu = () => {
             </a>
             <a href="https://www.linkedin.com/in/hasin-mahmood/">LinkedIn</a>
             <a href="https://github.com/hasin202">GitHub</a>
-            <a>Contact</a>
+            <a onClick={scroll}>Contact</a>
           </NavBar>
         ) : (
           <></>
