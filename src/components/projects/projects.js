@@ -1,6 +1,6 @@
 import { SectionHeading } from "../App.styled";
 import ProjectCard from "./projectcard";
-import breathe from "../../assets/breahte.svg";
+import breathe from "../../assets/breathe.svg";
 import portfolio from "../../assets/portfolio.svg";
 
 const Projects = () => {
