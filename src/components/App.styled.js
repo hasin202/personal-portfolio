@@ -35,4 +35,5 @@ export const SectionHeading = styled.div`
 
 export const BasicText = styled.p`
   font-size: 16px;
+  text-align: ${(props) => (props.align ? props.align : "left")};
 `;
