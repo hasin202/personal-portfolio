@@ -37,6 +37,11 @@ export const SectionHeading = styled.div`
   font-weight: 900;
   padding-top: ${(props) => (props.padding ? props.padding : "30px")};
   margin-bottom: 30px;
+
+  @media ${device.tablet} {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
 `;
 
 export const BasicText = styled.p`
@@ -50,4 +55,5 @@ export const BasicText = styled.p`
 
 export const Icon = styled.img`
   margin-right: ${(props) => (props.margin ? props.margin : "10px")};
+  scale: ${(props) => (props.scale ? props.scale : "100%")};
 `;
