@@ -17,7 +17,7 @@ const Projects = () => {
     {
       img: portfolio,
       title: "hasin.io",
-      skills: "ReactJS Styled Components, Vercel, Figma",
+      skills: "ReactJS, Styled Components, Vercel, Figma",
       description:
         "Figured it was about time I made a portfolio to show my skills and stand out. ",
       gitLink: "https://github.com/hasin202/personal-portfolio",
