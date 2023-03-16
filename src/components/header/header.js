@@ -7,7 +7,7 @@ import {
   Intro,
 } from "./Header.styled";
 import Skills from "./skills";
-import signature from "../assets/sign.svg";
+import signature from "../../assets/sign.svg";
 
 const Header = () => {
   return (
