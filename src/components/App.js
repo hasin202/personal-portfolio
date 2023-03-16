@@ -6,13 +6,15 @@ import Contact from "./contact/contact";
 
 const App = () => {
   return (
-    <FlexContainer>
-      <Body />
-      <Menu />
-      <Header />
-      <Projects />
-      <Contact />
-    </FlexContainer>
+    <>
+      <FlexContainer>
+        <Body />
+        <Menu />
+        <Header />
+        <Projects />
+        <Contact />
+      </FlexContainer>
+    </>
   );
 };
 
