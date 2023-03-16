@@ -20,7 +20,7 @@ export const Body = createGlobalStyle`
 export const FlexContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 0 52px 0 52px;
+  padding: 50px 52px 50px 52px;
 `;
 
 export const MenuContainer = styled.div`
@@ -29,14 +29,14 @@ export const MenuContainer = styled.div`
   flex-direction: column;
   width: 100%;
   align-items: flex-end;
-  margin-top: 50px;
 `;
 
 export const HeaderContainer = styled.header`
-  min-height: 80vh;
+  min-height: 72vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  margin-top: 18vh;
 `;
 
 export const SubHeading = styled.h1`
@@ -142,4 +142,58 @@ export const NavBar = styled.div`
   a:hover {
     font-weight: 700;
   }
+`;
+
+export const ProjectsHeading = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 700;
+`;
+
+export const CardImg = styled.img`
+  margin-top: 30px;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  z-index: 2;
+  // box-shadow: 0 -2px 5px #aaa;
+  border-left: 0.5px solid #ddd;
+  border-right: 0.5px solid #ddd;
+  border-top: 0.5px solid #ddd;
+`;
+
+export const CardInfo = styled.div`
+  width: 100%;
+  border-left: 0.5px solid #ddd;
+  border-right: 0.5px solid #ddd;
+  border-bottom: 0.5px solid #ddd;
+  background-color: white;
+  padding: 20px 20px;
+  border-radius: 0 0 5px 5px;
+  // box-shadow: 0 2px 5px #aaa;
+  p {
+    margin-bottom: 20px;
+  }
+`;
+
+export const CardHeading = styled.h1`
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+`;
+
+export const ProjectSkills = styled.p`
+  font-family: IBM Plex Mono;
+  font-size: 14px;
+  color: #868686;
+`;
+
+export const CardDescription = styled.p`
+  font-size: 16px;
+  font-weight: 300;
+`;
+
+export const Icon = styled.img`
+  margin-right: 10px;
 `;

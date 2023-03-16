@@ -1,5 +1,6 @@
-import { HeaderContainer, Body, FlexContainer } from "./App.styled";
+import { FlexContainer, Body } from "./App.styled";
 import HeaderBody from "./headerbody";
+import ProjectsContainer from "./projectsbody";
 import Menu from "./menu";
 
 const App = () => {
@@ -7,9 +8,8 @@ const App = () => {
     <FlexContainer>
       <Body />
       <Menu />
-      <HeaderContainer>
-        <HeaderBody />
-      </HeaderContainer>
+      <HeaderBody />
+      <ProjectsContainer />
     </FlexContainer>
   );
 };
