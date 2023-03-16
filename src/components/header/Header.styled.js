@@ -1,11 +1,16 @@
 import styled from "styled-components";
+import { device } from "../device";
 
 export const HeaderContainer = styled.header`
   min-height: 72vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  // margin-top: 18vh;
+
+  @media ${device.tablet} {
+    min-height: 90vh;
+    background-color: teal;
+  }
 `;
 
 export const SubHeading = styled.h1`
