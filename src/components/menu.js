@@ -1,4 +1,4 @@
-import { HamburgerButton, MenuContainer, NavBar } from "./App.styled";
+import { HamburgerButton, MenuContainer, NavBar } from "./Menu.styled";
 import { useState } from "react";
 import CV from "../assets/hasinCV.pdf";
 
