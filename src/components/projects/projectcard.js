@@ -18,10 +18,10 @@ const ProjectCard = ({ img, title, skills, description, gitLink, link }) => {
         <ProjectSkills>{skills}</ProjectSkills>
         <ProjectDescription>{description}</ProjectDescription>
         <a href={gitLink}>
-          <Icon src={github} />
+          <Icon margin="20px" scale="120%" src={github} />
         </a>
         <a href={link}>
-          <Icon src={open} />
+          <Icon scale="120%" src={open} />
         </a>
       </CardInfo>
     </>
