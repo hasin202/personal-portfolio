@@ -1,6 +1,6 @@
 import { HamburgerButton, MenuContainer, NavBar } from "./Menu.styled";
 import { useState } from "react";
-import CV from "../assets/hasinCV.pdf";
+import CV from "../../assets/hasinCV.pdf";
 
 const Menu = () => {
   const [menuOpen, setMenuOpen] = useState(false);
