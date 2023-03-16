@@ -41,7 +41,3 @@ export const ProjectDescription = styled.p`
   font-size: 16px;
   font-weight: 300;
 `;
-
-export const Icon = styled.img`
-  margin-right: 10px;
-`;
