@@ -4,7 +4,11 @@ import { device } from "./device";
 export const FlexContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 50px 150px 50px 150px;
+  padding: 50px 52px 50px 52px;
+
+  @media ${device.tablet} {
+    padding: 50px 150px 50px 150px;
+  }
 `;
 
 export const Body = createGlobalStyle`
@@ -42,4 +46,8 @@ export const BasicText = styled.p`
   @media ${device.tablet} {
     font-size: 22px;
   }
+`;
+
+export const Icon = styled.img`
+  margin-right: ${(props) => (props.margin ? props.margin : "10px")};
 `;

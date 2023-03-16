@@ -4,8 +4,8 @@ import {
   CardHeading,
   ProjectDescription,
   ProjectSkills,
-  Icon,
 } from "./Projects.styled";
+import { Icon } from "../App.styled";
 import github from "../../assets/GitHub.svg";
 import open from "../../assets/open.svg";
 
