@@ -9,7 +9,7 @@ import {
 import Skills from "./skills";
 import signature from "../assets/sign.svg";
 
-const HeaderBody = () => {
+const Header = () => {
   return (
     <HeaderContainer>
       <SubHeading>Hi I'm</SubHeading>
@@ -25,4 +25,4 @@ const HeaderBody = () => {
     </HeaderContainer>
   );
 };
-export default HeaderBody;
+export default Header;

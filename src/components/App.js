@@ -1,5 +1,5 @@
 import { FlexContainer, Body } from "./App.styled";
-import HeaderBody from "./headerbody";
+import Header from "./header";
 import ProjectsContainer from "./projectsbody";
 import Menu from "./menu";
 
@@ -8,7 +8,7 @@ const App = () => {
     <FlexContainer>
       <Body />
       <Menu />
-      <HeaderBody />
+      <Header />
       <ProjectsContainer />
     </FlexContainer>
   );
