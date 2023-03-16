@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { device } from "../device";
 
 export const MenuContainer = styled.div`
   position: relative;
@@ -33,6 +34,10 @@ export const HamburgerButton = styled.button`
   .change .bar3 {
     transform: translate(0, -11px) rotate(45deg);
   }
+
+  @media ${device.tablet} {
+    display: none;
+  }
 `;
 
 export const NavBar = styled.div`
@@ -56,5 +61,31 @@ export const NavBar = styled.div`
 
   a:hover {
     font-weight: 700;
+  }
+`;
+
+export const DesktopNav = styled.div`
+  display: none;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .margin-right {
+    margin-right: 30px;
+  }
+
+  .div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media ${device.tablet} {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 `;
