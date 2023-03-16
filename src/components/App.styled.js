@@ -1,5 +1,11 @@
 import styled, { createGlobalStyle } from "styled-components";
 
+export const FlexContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding: 50px 52px 50px 52px;
+`;
+
 export const Body = createGlobalStyle`
   body {
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -17,45 +23,12 @@ export const Body = createGlobalStyle`
   }
 `;
 
-export const FlexContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  padding: 50px 52px 50px 52px;
-`;
-
 export const MenuContainer = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: flex-end;
-`;
-
-export const HeaderContainer = styled.header`
-  min-height: 72vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-top: 18vh;
-`;
-
-export const SubHeading = styled.h1`
-  font-size: 30px;
-  font-weight: 100;
-  margin-left: -0.08em;
-  margin-bottom: 11px;
-`;
-
-export const Heading = styled.h1`
-  font-size: 60px;
-  font-weight: 900;
-  color: #9f5dbe;
-  margin-left: -0.06em;
-  margin-bottom: 25px;
-`;
-
-export const Intro = styled.p`
-  font-size: 16px;
 `;
 
 export const SkillBox = styled.div`
@@ -74,18 +47,6 @@ export const SkillsFlexContainer = styled.div`
   row-gap: 10px;
   column-gap: 10px;
   padding-top: 26px;
-`;
-
-export const Signature = styled.img`
-  width: 85px;
-  height: 85px;
-  position: absolute;
-  top: -13px;
-  left: 160px;
-`;
-
-export const RelativeContainer = styled.div`
-  position: relative;
 `;
 
 export const HamburgerButton = styled.button`

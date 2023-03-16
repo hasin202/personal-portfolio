@@ -5,7 +5,7 @@ import {
   RelativeContainer,
   Signature,
   Intro,
-} from "./App.styled";
+} from "./Header.styled";
 import Skills from "./skills";
 import signature from "../assets/sign.svg";
 
