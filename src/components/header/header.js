@@ -4,8 +4,9 @@ import {
   SubHeading,
   RelativeContainer,
   Signature,
-  Intro,
 } from "./Header.styled";
+
+import { BasicText } from "../App.styled";
 import Skills from "./skills";
 import signature from "../../assets/sign.svg";
 
@@ -17,10 +18,10 @@ const Header = () => {
         <Heading>Hasin.</Heading>
         <Signature src={signature} />
       </RelativeContainer>
-      <Intro>
+      <BasicText>
         A soon-to-be computer and internet engineering graduate keen on web
         development. These are some technologies I’m familiar with:
-      </Intro>
+      </BasicText>
       <Skills />
     </HeaderContainer>
   );

@@ -2,7 +2,11 @@ import {} from "./contact.styled";
 import { SectionHeading } from "../App.styled";
 
 const Contact = () => {
-  return <SectionHeading>hello</SectionHeading>;
+  return (
+    <>
+      <SectionHeading>Get in touch</SectionHeading>
+    </>
+  );
 };
 
 export default Contact;

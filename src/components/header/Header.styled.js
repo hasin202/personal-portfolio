@@ -34,7 +34,3 @@ export const Signature = styled.img`
 export const RelativeContainer = styled.div`
   position: relative;
 `;
-
-export const Intro = styled.p`
-  font-size: 16px;
-`;

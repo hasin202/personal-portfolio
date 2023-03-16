@@ -28,7 +28,11 @@ export const SectionHeading = styled.div`
   display: flex;
   justify-content: center;
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 900;
   padding-top: 30px;
   margin-bottom: 30px;
+`;
+
+export const BasicText = styled.p`
+  font-size: 16px;
 `;
