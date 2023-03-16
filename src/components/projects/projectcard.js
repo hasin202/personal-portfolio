@@ -6,8 +6,8 @@ import {
   ProjectSkills,
   Icon,
 } from "./Projects.styled";
-import github from "../assets/GitHub.svg";
-import open from "../assets/open.svg";
+import github from "../../assets/GitHub.svg";
+import open from "../../assets/open.svg";
 
 const ProjectCard = ({ img, title, skills, description, gitLink, link }) => {
   return (

@@ -1,7 +1,7 @@
 import { ProjectsHeading } from "./Projects.styled";
 import ProjectCard from "./projectcard";
-import breathe from "../assets/breahte.svg";
-import portfolio from "../assets/portfolio.svg";
+import breathe from "../../assets/breahte.svg";
+import portfolio from "../../assets/portfolio.svg";
 
 const Projects = () => {
   const projects = [
