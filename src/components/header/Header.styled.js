@@ -4,8 +4,8 @@ export const HeaderContainer = styled.header`
   min-height: 72vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  margin-top: 18vh;
+  justify-content: center;
+  // margin-top: 18vh;
 `;
 
 export const SubHeading = styled.h1`
