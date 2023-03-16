@@ -29,4 +29,5 @@ export const SectionHeading = styled.div`
   justify-content: center;
   font-size: 40px;
   font-weight: 700;
+  margin-bottom: 30px;
 `;

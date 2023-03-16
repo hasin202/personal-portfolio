@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const CardImg = styled.img`
-  margin-top: 30px;
   width: 100%;
   border-radius: 5px 5px 0 0;
   z-index: 2;
@@ -23,6 +22,7 @@ export const CardInfo = styled.div`
   p {
     margin-bottom: 20px;
   }
+  margin-bottom: 30px;
 `;
 
 export const CardHeading = styled.h1`
