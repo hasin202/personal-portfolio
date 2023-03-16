@@ -1,4 +1,5 @@
 import {
+  HeaderContainer,
   Heading,
   SubHeading,
   RelativeContainer,
@@ -10,7 +11,7 @@ import signature from "../assets/sign.svg";
 
 const HeaderBody = () => {
   return (
-    <>
+    <HeaderContainer>
       <SubHeading>Hi I'm</SubHeading>
       <RelativeContainer>
         <Heading>Hasin.</Heading>
@@ -21,7 +22,7 @@ const HeaderBody = () => {
         development. These are some technologies I’m familiar with:
       </Intro>
       <Skills />
-    </>
+    </HeaderContainer>
   );
 };
 export default HeaderBody;
