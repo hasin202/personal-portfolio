@@ -1,6 +1,6 @@
 import { FlexContainer, Body } from "./App.styled";
 import Header from "./header";
-import ProjectsContainer from "./projectsbody";
+import Projects from "./projects";
 import Menu from "./menu";
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
       <Body />
       <Menu />
       <Header />
-      <ProjectsContainer />
+      <Projects />
     </FlexContainer>
   );
 };

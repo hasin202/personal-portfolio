@@ -2,10 +2,10 @@ import {
   CardImg,
   CardInfo,
   CardHeading,
-  CardDescription,
+  ProjectDescription,
   ProjectSkills,
   Icon,
-} from "./App.styled";
+} from "./Projects.styled";
 import github from "../assets/GitHub.svg";
 import open from "../assets/open.svg";
 
@@ -16,7 +16,7 @@ const ProjectCard = ({ img, title, skills, description, gitLink, link }) => {
       <CardInfo>
         <CardHeading>{title}</CardHeading>
         <ProjectSkills>{skills}</ProjectSkills>
-        <CardDescription>{description}</CardDescription>
+        <ProjectDescription>{description}</ProjectDescription>
         <a href={gitLink}>
           <Icon src={github} />
         </a>

@@ -1,9 +1,9 @@
-import { ProjectsHeading } from "./App.styled";
+import { ProjectsHeading } from "./Projects.styled";
 import ProjectCard from "./projectcard";
 import breathe from "../assets/breahte.svg";
 import portfolio from "../assets/portfolio.svg";
 
-const ProjectsContainer = () => {
+const Projects = () => {
   const projects = [
     {
       img: breathe,
@@ -34,4 +34,4 @@ const ProjectsContainer = () => {
   );
 };
 
-export default ProjectsContainer;
+export default Projects;
