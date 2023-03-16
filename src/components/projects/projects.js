@@ -26,7 +26,7 @@ const Projects = () => {
   ];
   return (
     <>
-      <SectionHeading>My Projects</SectionHeading>
+      <SectionHeading padding="140px">My Projects</SectionHeading>
       {projects.map((project, index) => {
         return <ProjectCard {...project} key={index} />;
       })}
