@@ -1,6 +1,6 @@
 import {} from "./contact.styled";
 import { SectionHeading, BasicText } from "../App.styled";
-import { ContactFlexContainer, ContactButton } from "./contact.styled";
+import { ContactFlexContainer, ContactLink } from "./contact.styled";
 
 const Contact = () => {
   return (
@@ -11,7 +11,9 @@ const Contact = () => {
           If you’ve got any interesting opportunities or just want to say hi my
           inbox is always open.
         </BasicText>
-        <ContactButton>Say Hi.</ContactButton>
+        <ContactLink href="mailto: hasinmahmood01@gmail.com">
+          Say Hi.
+        </ContactLink>
       </ContactFlexContainer>
     </>
   );
