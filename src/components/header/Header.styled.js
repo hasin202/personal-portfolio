@@ -8,8 +8,7 @@ export const HeaderContainer = styled.header`
   justify-content: center;
 
   @media ${device.tablet} {
-    min-height: 90vh;
-    background-color: teal;
+    min-height: 80vh;
   }
 `;
 
@@ -18,6 +17,10 @@ export const SubHeading = styled.h1`
   font-weight: 100;
   margin-left: -0.08em;
   margin-bottom: 11px;
+
+  @media ${device.tablet} {
+    font-size: 55px;
+  }
 `;
 
 export const Heading = styled.h1`
@@ -26,6 +29,11 @@ export const Heading = styled.h1`
   color: #9f5dbe;
   margin-left: -0.06em;
   margin-bottom: 25px;
+
+  @media ${device.tablet} {
+    font-size: 110px;
+    margin-bottom: 50px;
+  }
 `;
 
 export const Signature = styled.img`
@@ -34,6 +42,12 @@ export const Signature = styled.img`
   position: absolute;
   top: -13px;
   left: 160px;
+
+  @media ${device.tablet} {
+    top: 22px;
+    left: 309px;
+    scale: 130%;
+  }
 `;
 
 export const RelativeContainer = styled.div`
