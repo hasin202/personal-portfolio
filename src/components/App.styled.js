@@ -1,9 +1,10 @@
 import styled, { createGlobalStyle } from "styled-components";
+import { device } from "./device";
 
 export const FlexContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 50px 52px 50px 52px;
+  padding: 50px 150px 50px 150px;
 `;
 
 export const Body = createGlobalStyle`
@@ -37,4 +38,8 @@ export const SectionHeading = styled.div`
 export const BasicText = styled.p`
   font-size: 16px;
   text-align: ${(props) => (props.align ? props.align : "left")};
+
+  @media ${device.tablet} {
+    font-size: 22px;
+  }
 `;
