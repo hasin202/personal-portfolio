@@ -11,6 +11,7 @@ export const Body = createGlobalStyle`
     font-family: 'Plus Jakarta Sans', sans-serif;
     padding:0;
     margin:0 !important;
+    background-color: #fffefe;
 
   }
   h1 {
@@ -29,7 +30,7 @@ export const SectionHeading = styled.div`
   justify-content: center;
   font-size: 40px;
   font-weight: 900;
-  padding-top: 30px;
+  padding-top: ${(props) => (props.padding ? props.padding : "30px")};
   margin-bottom: 30px;
 `;
 
