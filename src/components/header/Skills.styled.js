@@ -7,7 +7,7 @@ export const SkillsFlexContainer = styled.div`
   flex-wrap: wrap;
   row-gap: 10px;
   column-gap: 10px;
-  // padding-top: 26px;
+  padding-top: 26px;
 
   @media ${device.tablet} {
     padding-top: 50px;
