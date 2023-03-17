@@ -11,11 +11,9 @@ export const FlexContainer = styled.div`
   }
   @media ${device.laptop} {
     padding: 50px 200px 100px 200px;
-    background-color: blue;
   }
   @media ${device.laptopL} {
     padding: 50px 280px 100px 280px;
-    background-color: red;
   }
 `;
 
