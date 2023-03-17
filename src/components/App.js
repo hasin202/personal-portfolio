@@ -3,6 +3,7 @@ import Header from "./header/header";
 import Projects from "./projects/projects";
 import Menu from "./menu/menu";
 import Contact from "./contact/contact";
+import Footer from "./footer/footer";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Projects />
         <Contact />
       </FlexContainer>
+      <Footer />
     </>
   );
 };
