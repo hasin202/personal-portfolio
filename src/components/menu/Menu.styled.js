@@ -61,6 +61,8 @@ export const NavBar = styled.div`
 
   a:hover {
     font-weight: 700;
+    cursor: pointer;
+    transition: all 0.5s;
   }
 `;
 
@@ -72,6 +74,11 @@ export const DesktopNav = styled.div`
   a {
     text-decoration: none;
     color: black;
+  }
+  a:hover {
+    font-weight: 900;
+    cursor: pointer;
+    transition: all 0.5s;
   }
 
   .margin-right {
