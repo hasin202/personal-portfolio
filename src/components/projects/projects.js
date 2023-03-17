@@ -8,7 +8,7 @@ const Projects = () => {
     {
       img: breathe,
       title: "breathe.",
-      skills: "React Express Vercel TailwindCSS Supabase",
+      skills: "ReactJS, Express, Vercel, TailwindCSS, Supabase",
       description:
         "An IoT dashboard designed to display sensor readings from an Arduino in an easy to understand way accompanied by a chart so that users can visualise trends.",
       gitLink: "https://github.com/CO2Sesnsor/breathe.",
