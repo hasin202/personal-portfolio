@@ -7,10 +7,16 @@ export const SkillsFlexContainer = styled.div`
   flex-wrap: wrap;
   row-gap: 10px;
   column-gap: 10px;
-  padding-top: 26px;
+  margin-top: 26px;
 
   @media ${device.tablet} {
-    padding-top: 50px;
+    margin-top: 50px;
+  }
+  @media ${device.laptopL} {
+    margin-top: 55px;
+  }
+  @media ${device.desktop} {
+    margin-top: 60px;
   }
 `;
 export const SkillBox = styled.div`
@@ -24,5 +30,15 @@ export const SkillBox = styled.div`
 
   @media ${device.tablet} {
     font-size: 24px;
+  }
+
+  @media ${device.laptopL} {
+    font-size: 26px;
+    font-weight: 700;
+  }
+
+  @media ${device.desktop} {
+    font-size: 27px;
+    font-weight: 700;
   }
 `;

@@ -4,16 +4,21 @@ import { device } from "./device";
 export const FlexContainer = styled.div`
   display: flex;
   flex-direction: column;
-  padding: 50px 52px 100px 52px;
+  padding: 5vh 0 15vh 0;
+  max-width: 280px;
+  margin: auto;
 
   @media ${device.tablet} {
-    padding: 50px 120px 100px 120px;
+    max-width: 500px;
   }
   @media ${device.laptop} {
-    padding: 50px 140px 100px 140px;
+    max-width: 550px;
   }
   @media ${device.laptopL} {
-    padding: 50px 263px 100px 263px;
+    max-width: 800px;
+  }
+  @media ${device.desktop} {
+    max-width: 1000px;
   }
 `;
 
@@ -53,8 +58,13 @@ export const SectionHeading = styled.div`
 export const BasicText = styled.p`
   font-size: 16px;
   text-align: ${(props) => (props.align ? props.align : "left")};
+  line-height: 1.4em;
 
   @media ${device.tablet} {
+    font-size: 20px;
+  }
+
+  @media ${device.laptopL} {
     font-size: 22px;
   }
 `;

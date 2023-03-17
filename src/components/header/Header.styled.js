@@ -10,6 +10,10 @@ export const HeaderContainer = styled.header`
   @media ${device.tablet} {
     min-height: 80vh;
   }
+
+  @media ${device.laptop} {
+    min-height: 83vh;
+  }
 `;
 
 export const SubHeading = styled.h1`
@@ -20,6 +24,10 @@ export const SubHeading = styled.h1`
 
   @media ${device.tablet} {
     font-size: 55px;
+  }
+
+  @media ${device.desktop} {
+    font-size: 80px;
   }
 `;
 
@@ -34,6 +42,15 @@ export const Heading = styled.h1`
     font-size: 110px;
     margin-bottom: 50px;
   }
+
+  @media ${device.laptopL} {
+    margin-bottom: 55px;
+  }
+
+  @media ${device.desktop} {
+    font-size: 150px;
+    margin-bottom: 60px;
+  }
 `;
 
 export const Signature = styled.img`
@@ -47,6 +64,11 @@ export const Signature = styled.img`
     top: 22px;
     left: 309px;
     scale: 130%;
+  }
+  @media ${device.desktop} {
+    top: 48px;
+    left: 423px;
+    scale: 140%;
   }
 `;
 
