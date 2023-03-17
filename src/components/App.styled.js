@@ -7,13 +7,13 @@ export const FlexContainer = styled.div`
   padding: 50px 52px 100px 52px;
 
   @media ${device.tablet} {
-    padding: 50px 150px 100px 150px;
+    padding: 50px 120px 100px 120px;
   }
   @media ${device.laptop} {
-    padding: 50px 200px 100px 200px;
+    padding: 50px 140px 100px 140px;
   }
   @media ${device.laptopL} {
-    padding: 50px 280px 100px 280px;
+    padding: 50px 263px 100px 263px;
   }
 `;
 
