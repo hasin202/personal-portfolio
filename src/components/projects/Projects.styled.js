@@ -36,7 +36,7 @@ export const CardInfo = styled.div`
 export const CardHeading = styled.h1`
   font-size: 36px;
   font-weight: 700;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 
   @media ${device.tablet} {
     font-size: 48px;
