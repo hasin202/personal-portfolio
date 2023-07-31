@@ -2,9 +2,19 @@ import { SectionHeading } from "../App.styled";
 import ProjectCard from "./projectcard";
 import breathe from "../../assets/breathe.svg";
 import portfolio from "../../assets/portfolio.svg";
+import objectAlc from "../../assets/objectAlc.svg";
 
 const Projects = () => {
   const projects = [
+    {
+      img: objectAlc,
+      title: "Object Alchemy.",
+      skills: "TypeScript, ReactJS, Formik, Express, Vercel, TailwindCSS",
+      description:
+        "A dummy data generator which leverages the openAI API to produce relevant content for you. Simply enter an example schema, some context information and you're done. Your dummy data will be with you in less than a minute",
+      gitLink: "https://github.com/hasin202/ObjectAlchemyFrontEnd",
+      link: "https://www.objectalchemy.live/",
+    },
     {
       img: breathe,
       title: "breathe.",
