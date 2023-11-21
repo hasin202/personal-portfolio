@@ -4,11 +4,12 @@ const Skills = () => {
   return (
     <>
       <SkillsFlexContainer>
-        <SkillBox>React</SkillBox>
+        <SkillBox>NextJS</SkillBox>
+        <SkillBox>TypeScript</SkillBox>
         <SkillBox>Express</SkillBox>
         <SkillBox>NodeJS</SkillBox>
         <SkillBox>Supabase</SkillBox>
-        <SkillBox>Figma</SkillBox>
+        <SkillBox>SQL</SkillBox>
         <SkillBox>TailwindCSS</SkillBox>
       </SkillsFlexContainer>
     </>
