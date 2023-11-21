@@ -19,9 +19,8 @@ const Header = () => {
         <Signature src={signature} />
       </RelativeContainer>
       <BasicText>
-        A recently graduated software engineer keen on web development thats
-        always making small projects to keep myself busy. Heres some of the tech
-        I've been working with recenetly:
+        Software Engineer: Passionate about Building Responsive and Accessible
+        Digital Experiences. Heres my current tech stack:
       </BasicText>
       <Skills />
     </HeaderContainer>
