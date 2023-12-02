@@ -3,9 +3,21 @@ import ProjectCard from "./projectcard";
 import breathe from "../../assets/breathe.svg";
 import portfolio from "../../assets/portfolio.svg";
 import objectAlc from "../../assets/objectAlc.svg";
+import royaleMates from "../../assets/royale mates.svg";
 
 const Projects = () => {
   const projects = [
+    {
+      img: royaleMates,
+      title: "Mates Royale.",
+      skills:
+        "NextJS, TypeScript, Prisma, GitHub Actions, Databases, TailwindCSS",
+      description: `I saw a missing feature for a game I love playing so I made it :).
+        
+        If you just want to check out the site but don't play clash royale feel free to use my player tag: LGP89JU`,
+      gitLink: "https://github.com/hasin202/royale-mates",
+      link: "https://www.matesroyale.com/",
+    },
     {
       img: objectAlc,
       title: "Object Alchemy.",
