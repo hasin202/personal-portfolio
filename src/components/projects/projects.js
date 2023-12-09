@@ -25,7 +25,7 @@ const Projects = () => {
       description:
         "A dummy data generator which leverages the openAI API to produce relevant content for you. Simply enter an example schema, some context information and you're done. Your dummy data will be with you in less than a minute",
       gitLink: "https://github.com/hasin202/ObjectAlchemyFrontEnd",
-      link: "https://www.objectalchemy.live/",
+      link: "https://drive.google.com/file/d/1ag4tCa_ECGcDj-hUwQ9DXrHEmEfhqAIL/view?usp=sharing",
     },
     {
       img: breathe,

@@ -19,8 +19,8 @@ const Header = () => {
         <Signature src={signature} />
       </RelativeContainer>
       <BasicText>
-        Software Engineer: Passionate about Building Responsive and Accessible
-        Digital Experiences. Heres my current tech stack:
+        A software engineer: passionate about building responsive and accessible
+        digital experiences. Heres my current tech stack:
       </BasicText>
       <Skills />
     </HeaderContainer>
