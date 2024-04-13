@@ -4,9 +4,18 @@ import breathe from "../../assets/breathe.svg";
 import portfolio from "../../assets/portfolio.svg";
 import objectAlc from "../../assets/objectAlc.svg";
 import royaleMates from "../../assets/royale mates.svg";
+import starling from "../../assets/starling.jpg";
 
 const Projects = () => {
   const projects = [
+    {
+      img: starling,
+      title: "Mock Banking App",
+      skills: "NextJS, TypeScript, Redux, Starling Bank API",
+      description: ``,
+      gitLink: "https://github.com/hasin202/hasin-starling-test",
+      link: "https://youtu.be/I28c47rK5iA",
+    },
     {
       img: royaleMates,
       title: "Mates Royale.",
@@ -16,7 +25,7 @@ const Projects = () => {
         
         If you just want to check out the site but don't play clash royale feel free to use my player tag: LGP89JU`,
       gitLink: "https://github.com/hasin202/royale-mates",
-      link: "https://www.matesroyale.com/",
+      link: "https://youtu.be/qiut9_YPQVg",
     },
     {
       img: objectAlc,

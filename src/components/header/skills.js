@@ -6,9 +6,8 @@ const Skills = () => {
       <SkillsFlexContainer>
         <SkillBox>NextJS</SkillBox>
         <SkillBox>TypeScript</SkillBox>
-        <SkillBox>Express</SkillBox>
+        <SkillBox>Redux</SkillBox>
         <SkillBox>NodeJS</SkillBox>
-        <SkillBox>Supabase</SkillBox>
         <SkillBox>SQL</SkillBox>
         <SkillBox>TailwindCSS</SkillBox>
       </SkillsFlexContainer>
